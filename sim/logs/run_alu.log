@@ -1,0 +1,17 @@
+[alu] START seed=20260921
+[alu] COV ADD                            hits=73           
+[alu] COV SUB                            hits=81           
+[alu] COV SLL                            hits=105           
+[alu] COV SLT                            hits=75           
+[alu] COV SLTU                           hits=74           
+[alu] COV XOR                            hits=80           
+[alu] COV SRL                            hits=112           
+[alu] COV SRA                            hits=111           
+[alu] COV OR                             hits=76           
+[alu] COV AND                            hits=75           
+[alu] COV result_zero                    hits=221           
+[alu] COV result_negative                hits=271           
+[alu] COV shamt_0                        hits=202           
+[alu] COV shamt_31                       hits=282           
+RESULT module=alu seed=20260921 dir_pass=742 dir_fail=0 rnd_pass=120 rnd_fail=0 rnd_total=120 cov_bins=14 cov_hit=14 first_fail_cycle=0
+- /home/claude/work/tb/tb_alu.sv:106: Verilog $finish

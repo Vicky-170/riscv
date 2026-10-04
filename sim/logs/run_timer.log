@@ -1,0 +1,15 @@
+[timer] START seed=20260921
+[timer] COV reset_disabled                 hits=1           
+[timer] COV count_enabled                  hits=1           
+[timer] COV compare_fires                  hits=1           
+[timer] COV compare_cleared_by_raising_cmp hits=1           
+[timer] COV msip_set                       hits=1           
+[timer] COV msip_clear                     hits=1           
+[timer] COV mtime_sw_write_while_running   hits=1           
+[timer] COV mtimecmp_sw_write              hits=1           
+[timer] COV disable_stops_count            hits=1           
+[timer] COV reenable_resumes               hits=1           
+[timer] COV partial_strobe_write           hits=1           
+[timer] COV mtimeh_rollover_path           hits=1           
+RESULT module=timer seed=20260921 dir_pass=111 dir_fail=0 rnd_pass=150 rnd_fail=0 rnd_total=150 cov_bins=12 cov_hit=12 first_fail_cycle=0
+- /home/claude/work/tb/tb_timer.sv:137: Verilog $finish

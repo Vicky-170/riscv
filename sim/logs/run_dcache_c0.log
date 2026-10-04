@@ -1,0 +1,15 @@
+[dcache_e0_l8_b16] START seed=20260921
+[dcache_e0_l8_b16] COV load_hit                       hits=0   <-- HOLE
+[dcache_e0_l8_b16] COV load_or_store_or_uncached_at_apply hits=163           
+[dcache_e0_l8_b16] COV store                          hits=62           
+[dcache_e0_l8_b16] COV store_hit                      hits=0   <-- HOLE
+[dcache_e0_l8_b16] COV store_miss                     hits=62           
+[dcache_e0_l8_b16] COV partial_byte_store             hits=29           
+[dcache_e0_l8_b16] COV store_bus_error                hits=2           
+[dcache_e0_l8_b16] COV load_refill                    hits=0   <-- HOLE
+[dcache_e0_l8_b16] COV mmio_load_bypass               hits=11           
+[dcache_e0_l8_b16] COV load_bus_error                 hits=3           
+[dcache_e0_l8_b16] COV conflict_evict                 hits=0   <-- HOLE
+[dcache_e0_l8_b16] COV mmio_store                     hits=1           
+RESULT module=dcache_e0_l8_b16 seed=20260921 dir_pass=733 dir_fail=0 rnd_pass=311 rnd_fail=0 rnd_total=311 cov_bins=12 cov_hit=8 first_fail_cycle=0
+- /home/claude/work/tb/tb_dcache.sv:235: Verilog $finish

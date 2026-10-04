@@ -1,0 +1,18 @@
+[cpu_stage5] START seed=20260921
+[cpu_stage5] PC lock-step checks: 21462, divergences: 0
+[cpu_stage5] 1209 checkpoints, 37479 register comparisons, 0 mismatches
+[cpu_stage5] COV alu_reg                        hits=6033           
+[cpu_stage5] COV alu_imm                        hits=6959           
+[cpu_stage5] COV m_extension                    hits=1793           
+[cpu_stage5] COV load                           hits=1449           
+[cpu_stage5] COV store                          hits=1439           
+[cpu_stage5] COV branch_taken                   hits=65           
+[cpu_stage5] COV branch_nottaken                hits=2251           
+[cpu_stage5] COV csr_access                     hits=1427           
+[cpu_stage5] COV benchmark_checkpoint           hits=9           
+[cpu_stage5] COV random_checkpoint              hits=1200           
+[cpu_stage5] COV load_use_stall                 hits=198           
+[cpu_stage5] COV dcache_stall_model             hits=14808           
+[cpu_stage5] COV long_running_1000plus_instr    hits=3974           
+RESULT module=cpu_stage5 seed=20260921 dir_pass=12 dir_fail=0 rnd_pass=37510 rnd_fail=0 rnd_total=37510 cov_bins=13 cov_hit=13 first_fail_cycle=0
+- /home/claude/work/tb/cpu/tb_cpu_stage5.sv:462: Verilog $finish

@@ -1,0 +1,18 @@
+[memory_subsystem] START seed=20260921
+[memory_subsystem] COV ifetch_ROM                     hits=37           
+[memory_subsystem] COV ifetch_SRAM                    hits=12           
+[memory_subsystem] COV ifetch_error                   hits=36           
+[memory_subsystem] COV dload_ROM                      hits=26           
+[memory_subsystem] COV dload_or_store_SRAM            hits=68           
+[memory_subsystem] COV periph_load_bypass             hits=5           
+[memory_subsystem] COV periph_store                   hits=3           
+[memory_subsystem] COV dside_error                    hits=46           
+[memory_subsystem] COV ROM_write_rejected             hits=9           
+[memory_subsystem] COV SRAM_store                     hits=45           
+[memory_subsystem] COV simultaneous_I_D_miss          hits=1           
+[memory_subsystem] COV stale_ifetch_without_fencei    hits=1           
+[memory_subsystem] COV fresh_ifetch_after_fencei      hits=1           
+[memory_subsystem] COV icache_miss_event              hits=85           
+[memory_subsystem] COV dcache_miss_event              hits=49           
+RESULT module=memory_subsystem seed=20260921 dir_pass=195 dir_fail=0 rnd_pass=152 rnd_fail=0 rnd_total=152 cov_bins=15 cov_hit=15 first_fail_cycle=0
+- /home/claude/work/tb/tb_memory_subsystem.sv:304: Verilog $finish

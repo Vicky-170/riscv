@@ -1,0 +1,14 @@
+[uart] START seed=20260921
+[uart] COV tx_byte_observed               hits=66           
+[uart] COV rx_byte_received               hits=45           
+[uart] COV tx_irq                         hits=1           
+[uart] COV rx_irq                         hits=1           
+[uart] COV overrun_flag                   hits=1           
+[uart] COV frame_err_flag                 hits=1           
+[uart] COV overrun_cleared                hits=1           
+[uart] COV frame_err_cleared              hits=1           
+[uart] COV baud_change                    hits=1           
+[uart] COV tx_ready_while_idle            hits=1           
+[uart] COV back_to_back_rx                hits=1           
+RESULT module=uart seed=20260921 dir_pass=1556 dir_fail=0 rnd_pass=240 rnd_fail=0 rnd_total=240 cov_bins=11 cov_hit=11 first_fail_cycle=0
+- /home/claude/work/tb/tb_uart.sv:200: Verilog $finish

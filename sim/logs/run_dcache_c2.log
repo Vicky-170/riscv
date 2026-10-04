@@ -1,0 +1,15 @@
+[dcache_e1_l4_b8] START seed=20260921
+[dcache_e1_l4_b8] COV load_hit                       hits=17           
+[dcache_e1_l4_b8] COV load_or_store_or_uncached_at_apply hits=144           
+[dcache_e1_l4_b8] COV store                          hits=63           
+[dcache_e1_l4_b8] COV store_hit                      hits=14           
+[dcache_e1_l4_b8] COV store_miss                     hits=49           
+[dcache_e1_l4_b8] COV partial_byte_store             hits=38           
+[dcache_e1_l4_b8] COV store_bus_error                hits=1           
+[dcache_e1_l4_b8] COV load_refill                    hits=75           
+[dcache_e1_l4_b8] COV mmio_load_bypass               hits=6           
+[dcache_e1_l4_b8] COV load_bus_error                 hits=2           
+[dcache_e1_l4_b8] COV conflict_evict                 hits=1           
+[dcache_e1_l4_b8] COV mmio_store                     hits=1           
+RESULT module=dcache_e1_l4_b8 seed=20260921 dir_pass=692 dir_fail=0 rnd_pass=310 rnd_fail=0 rnd_total=310 cov_bins=12 cov_hit=12 first_fail_cycle=0
+- /home/claude/work/tb/tb_dcache.sv:235: Verilog $finish

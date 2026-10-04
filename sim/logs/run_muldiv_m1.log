@@ -1,0 +1,18 @@
+[muldiv_m1] START seed=20260921
+[muldiv_m1] COV MUL                            hits=160           
+[muldiv_m1] COV MULH                           hits=157           
+[muldiv_m1] COV MULHSU                         hits=157           
+[muldiv_m1] COV MULHU                          hits=156           
+[muldiv_m1] COV DIV                            hits=173           
+[muldiv_m1] COV DIVU                           hits=155           
+[muldiv_m1] COV REM                            hits=163           
+[muldiv_m1] COV REMU                           hits=157           
+[muldiv_m1] COV divide_by_zero                 hits=106           
+[muldiv_m1] COV INT_MIN_div_minus1             hits=11           
+[muldiv_m1] COV zero_operand                   hits=195           
+[muldiv_m1] COV INT_MAX_operand                hits=188           
+[muldiv_m1] COV mixed_signs                    hits=631           
+[muldiv_m1] COV single_cycle_result            hits=0   <-- HOLE
+[muldiv_m1] COV multi_cycle_result             hits=1278           
+RESULT module=muldiv_m1 seed=20260921 dir_pass=1173 dir_fail=0 rnd_pass=110 rnd_fail=0 rnd_total=110 cov_bins=15 cov_hit=14 first_fail_cycle=0
+- /home/claude/work/tb/tb_muldiv_unit.sv:178: Verilog $finish

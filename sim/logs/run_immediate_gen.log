@@ -1,0 +1,11 @@
+[immediate_gen] START seed=20260921
+[immediate_gen] COV I_type                         hits=189           
+[immediate_gen] COV S_type                         hits=45           
+[immediate_gen] COV B_type                         hits=44           
+[immediate_gen] COV U_type                         hits=46           
+[immediate_gen] COV J_type                         hits=44           
+[immediate_gen] COV imm_negative                   hits=99           
+[immediate_gen] COV imm_positive                   hits=269           
+[immediate_gen] COV imm_zero                       hits=96           
+RESULT module=immediate_gen seed=20260921 dir_pass=248 dir_fail=0 rnd_pass=120 rnd_fail=0 rnd_total=120 cov_bins=8 cov_hit=8 first_fail_cycle=0
+- /home/claude/work/tb/tb_immediate_gen.sv:91: Verilog $finish

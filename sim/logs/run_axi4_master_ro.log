@@ -1,0 +1,12 @@
+[axi4_master_ro1] START seed=20260921
+[axi4_master_ro1] COV read_single                    hits=58           
+[axi4_master_ro1] COV read_burst                     hits=48           
+[axi4_master_ro1] COV write                          hits=0   <-- HOLE
+[axi4_master_ro1] COV write_partial_strobe           hits=0   <-- HOLE
+[axi4_master_ro1] COV aw_before_w                    hits=0   <-- HOLE
+[axi4_master_ro1] COV w_before_aw                    hits=0   <-- HOLE
+[axi4_master_ro1] COV read_error_beat                hits=11           
+[axi4_master_ro1] COV backpressure_read              hits=30           
+[axi4_master_ro1] COV write_error                    hits=0   <-- HOLE
+RESULT module=axi4_master_ro1 seed=20260921 dir_pass=125 dir_fail=0 rnd_pass=745 rnd_fail=0 rnd_total=745 cov_bins=9 cov_hit=4 first_fail_cycle=0
+- /home/claude/work/tb/tb_axi4_master.sv:333: Verilog $finish

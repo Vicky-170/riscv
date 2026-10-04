@@ -1,0 +1,10 @@
+[axi_err_slave_r3] START seed=20260921
+[axi_err_slave_r3] COV read_single                    hits=5           
+[axi_err_slave_r3] COV read_burst                     hits=33           
+[axi_err_slave_r3] COV rready_backpressure            hits=30           
+[axi_err_slave_r3] COV write                          hits=33           
+[axi_err_slave_r3] COV write_burst                    hits=27           
+[axi_err_slave_r3] COV w_before_aw                    hits=7           
+[axi_err_slave_r3] COV bready_backpressure            hits=30           
+RESULT module=axi_err_slave_r3 seed=20260921 dir_pass=80 dir_fail=0 rnd_pass=211 rnd_fail=0 rnd_total=211 cov_bins=7 cov_hit=7 first_fail_cycle=0
+- /home/claude/work/tb/tb_axi_err_slave.sv:184: Verilog $finish

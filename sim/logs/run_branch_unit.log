@@ -1,0 +1,14 @@
+[branch_unit] START seed=20260921
+[branch_unit] COV BEQ                            hits=16           
+[branch_unit] COV BNE                            hits=17           
+[branch_unit] COV BLT                            hits=21           
+[branch_unit] COV BGE                            hits=22           
+[branch_unit] COV BLTU                           hits=30           
+[branch_unit] COV BGEU                           hits=27           
+[branch_unit] COV JAL                            hits=11           
+[branch_unit] COV JALR                           hits=9           
+[branch_unit] COV taken                          hits=92           
+[branch_unit] COV not_taken                      hits=62           
+[branch_unit] COV misaligned_target              hits=57           
+RESULT module=branch_unit seed=20260921 dir_pass=88 dir_fail=0 rnd_pass=220 rnd_fail=0 rnd_total=220 cov_bins=11 cov_hit=11 first_fail_cycle=0
+- /home/claude/work/tb/tb_branch_unit.sv:102: Verilog $finish

@@ -1,0 +1,19 @@
+[axi_to_apb] START seed=20260921
+[axi_to_apb] COV rd_timer                       hits=12           
+[axi_to_apb] COV rd_uart                        hits=14           
+[axi_to_apb] COV rd_gpio                        hits=11           
+[axi_to_apb] COV rd_intc                        hits=8           
+[axi_to_apb] COV rd_unmapped                    hits=43           
+[axi_to_apb] COV pslverr_read                   hits=1           
+[axi_to_apb] COV rready_backpressure            hits=29           
+[axi_to_apb] COV apb_wait_states                hits=23           
+[axi_to_apb] COV wr_unmapped                    hits=42           
+[axi_to_apb] COV wr_mapped                      hits=48           
+[axi_to_apb] COV wr_partial_strobe              hits=16           
+[axi_to_apb] COV w_before_aw                    hits=27           
+[axi_to_apb] COV aw_before_w                    hits=21           
+[axi_to_apb] COV bready_backpressure            hits=27           
+[axi_to_apb] COV pslverr_write                  hits=1           
+[axi_to_apb] COV read_priority_over_write       hits=1           
+RESULT module=axi_to_apb seed=20260921 dir_pass=315 dir_fail=0 rnd_pass=373 rnd_fail=0 rnd_total=373 cov_bins=16 cov_hit=16 first_fail_cycle=0
+- /home/claude/work/tb/tb_axi_to_apb.sv:305: Verilog $finish

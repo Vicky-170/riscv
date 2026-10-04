@@ -1,0 +1,18 @@
+[decoder] START seed=20260921
+[decoder] COV illegal                        hits=63           
+[decoder] COV legal                          hits=255           
+[decoder] COV reg_write                      hits=189           
+[decoder] COV mem_read                       hits=21           
+[decoder] COV mem_write                      hits=13           
+[decoder] COV branch                         hits=29           
+[decoder] COV jal                            hits=5           
+[decoder] COV jalr                           hits=8           
+[decoder] COV m_extension                    hits=40           
+[decoder] COV csr                            hits=28           
+[decoder] COV mret                           hits=5           
+[decoder] COV fence_i                        hits=5           
+[decoder] COV ecall                          hits=3           
+[decoder] COV ebreak                         hits=3           
+[decoder] COV imm_operand                    hits=92           
+RESULT module=decoder seed=20260921 dir_pass=198 dir_fail=0 rnd_pass=120 rnd_fail=0 rnd_total=120 cov_bins=15 cov_hit=15 first_fail_cycle=0
+- /home/claude/work/tb/tb_decoder.sv:221: Verilog $finish

@@ -1,0 +1,7 @@
+[pipeline_regs] START seed=20260921
+[pipeline_regs] COV flush_and_en                   hits=24           
+[pipeline_regs] COV flush_while_stalled            hits=12           
+[pipeline_regs] COV advance                        hits=38           
+[pipeline_regs] COV hold                           hits=41           
+RESULT module=pipeline_regs seed=20260921 dir_pass=130 dir_fail=0 rnd_pass=600 rnd_fail=0 rnd_total=600 cov_bins=4 cov_hit=4 first_fail_cycle=0
+- /home/claude/work/tb/tb_pipeline_regs.sv:122: Verilog $finish

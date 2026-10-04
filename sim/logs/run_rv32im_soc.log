@@ -1,0 +1,11 @@
+[rv32im_soc] START seed=20260921
+[rv32im_soc] COV uart_tx_observed               hits=16           
+[rv32im_soc] COV gpio_out_pins_correct          hits=16           
+[rv32im_soc] COV gpio_in_roundtrip              hits=16           
+[rv32im_soc] COV timer_irq_end_to_end           hits=16           
+[rv32im_soc] COV ext_irq_end_to_end             hits=16           
+[rv32im_soc] COV firmware_completed             hits=16           
+[rv32im_soc] COV ext_irq_late_assert            hits=7           
+[rv32im_soc] COV gpio_pattern_mixed_bits        hits=16           
+RESULT module=rv32im_soc seed=20260921 dir_pass=8 dir_fail=0 rnd_pass=120 rnd_fail=0 rnd_total=120 cov_bins=8 cov_hit=8 first_fail_cycle=0
+- /home/claude/work/tb/tb_rv32im_soc.sv:175: Verilog $finish

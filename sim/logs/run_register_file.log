@@ -1,0 +1,9 @@
+[register_file] START seed=20260921
+[register_file] COV read_x0                        hits=11           
+[register_file] COV write_through_bypass           hits=41           
+[register_file] COV same_reg_both_ports            hits=45           
+[register_file] COV write_to_x0                    hits=3           
+[register_file] COV write_enabled                  hits=117           
+[register_file] COV write_disabled                 hits=66           
+RESULT module=register_file seed=20260921 dir_pass=141 dir_fail=0 rnd_pass=220 rnd_fail=0 rnd_total=220 cov_bins=6 cov_hit=6 first_fail_cycle=0
+- /home/claude/work/tb/tb_register_file.sv:107: Verilog $finish

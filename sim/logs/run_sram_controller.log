@@ -1,0 +1,14 @@
+[sram_controller] START seed=20260921
+[sram_controller] COV read_single                    hits=161           
+[sram_controller] COV read_burst                     hits=70           
+[sram_controller] COV rready_backpressure            hits=33           
+[sram_controller] COV read_out_of_range_beat         hits=66           
+[sram_controller] COV burst_crosses_end              hits=8           
+[sram_controller] COV write                          hits=82           
+[sram_controller] COV write_burst                    hits=55           
+[sram_controller] COV write_out_of_range             hits=12           
+[sram_controller] COV partial_strobe                 hits=107           
+[sram_controller] COV bready_backpressure            hits=32           
+[sram_controller] COV w_gaps                         hits=20           
+RESULT module=sram_controller seed=20260921 dir_pass=509 dir_fail=0 rnd_pass=383 rnd_fail=0 rnd_total=383 cov_bins=11 cov_hit=11 first_fail_cycle=0
+- /home/claude/work/tb/tb_axi_mem_slave.sv:246: Verilog $finish

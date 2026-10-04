@@ -1,0 +1,14 @@
+[icache_e0_l8_b16] START seed=20260921
+[icache_e0_l8_b16] COV hit_at_apply                   hits=11           
+[icache_e0_l8_b16] COV miss_at_apply                  hits=133           
+[icache_e0_l8_b16] COV error_result                   hits=1           
+[icache_e0_l8_b16] COV zero_wait_result               hits=11           
+[icache_e0_l8_b16] COV refill_wait_result             hits=133           
+[icache_e0_l8_b16] COV fence_i                        hits=21           
+[icache_e0_l8_b16] COV conflict_miss                  hits=0   <-- HOLE
+[icache_e0_l8_b16] COV invalidate_during_refill       hits=0   <-- HOLE
+[icache_e0_l8_b16] COV redirect_mid_refill            hits=1           
+[icache_e0_l8_b16] COV same_line_word_hit             hits=0   <-- HOLE
+[icache_e0_l8_b16] COV selfmod_after_fence_i          hits=1           
+RESULT module=icache_e0_l8_b16 seed=20260921 dir_pass=81 dir_fail=0 rnd_pass=360 rnd_fail=0 rnd_total=360 cov_bins=11 cov_hit=8 first_fail_cycle=0
+- /home/claude/work/tb/tb_icache.sv:243: Verilog $finish

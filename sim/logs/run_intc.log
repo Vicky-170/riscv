@@ -1,0 +1,12 @@
+[intc] START seed=20260921
+[intc] COV meip_asserted                  hits=1           
+[intc] COV meip_deasserted                hits=1           
+[intc] COV claim_zero_idle                hits=1           
+[intc] COV claim_source0_priority         hits=1           
+[intc] COV claim_source7                  hits=1           
+[intc] COV enable_write                   hits=1           
+[intc] COV disabled_source_ignored        hits=1           
+[intc] COV partial_strobe_enable          hits=1           
+[intc] COV multi_source_pending           hits=1           
+RESULT module=intc seed=20260921 dir_pass=93 dir_fail=0 rnd_pass=606 rnd_fail=0 rnd_total=606 cov_bins=9 cov_hit=9 first_fail_cycle=0
+- /home/claude/work/tb/tb_intc.sv:115: Verilog $finish

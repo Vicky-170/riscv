@@ -1,0 +1,19 @@
+[axi4_interconnect] START seed=20260921
+[axi4_interconnect] COV rd_S0                          hits=37           
+[axi4_interconnect] COV rd_S1                          hits=46           
+[axi4_interconnect] COV rd_S2                          hits=22           
+[axi4_interconnect] COV rd_DECERR                      hits=30           
+[axi4_interconnect] COV master0                        hits=65           
+[axi4_interconnect] COV master1                        hits=70           
+[axi4_interconnect] COV burst                          hits=105           
+[axi4_interconnect] COV rready_backpressure            hits=35           
+[axi4_interconnect] COV wr_S0                          hits=20           
+[axi4_interconnect] COV wr_S1                          hits=30           
+[axi4_interconnect] COV wr_S2                          hits=7           
+[axi4_interconnect] COV wr_DECERR                      hits=19           
+[axi4_interconnect] COV bready_backpressure            hits=28           
+[axi4_interconnect] COV contention_fork                hits=1           
+[axi4_interconnect] COV slave_backpressure             hits=1           
+[axi4_interconnect] COV slave_SLVERR_forwarded         hits=1           
+RESULT module=axi4_interconnect seed=20260921 dir_pass=423 dir_fail=0 rnd_pass=463 rnd_fail=0 rnd_total=463 cov_bins=16 cov_hit=16 first_fail_cycle=0
+- /home/claude/work/tb/tb_axi4_interconnect.sv:378: Verilog $finish

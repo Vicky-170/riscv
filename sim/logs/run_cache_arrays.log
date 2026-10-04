@@ -1,0 +1,13 @@
+[cache_arrays] START seed=20260921
+[cache_arrays] COV read_valid_line                hits=160           
+[cache_arrays] COV read_invalid_line              hits=102           
+[cache_arrays] COV valid_agrees                   hits=160           
+[cache_arrays] COV full_word_write                hits=43           
+[cache_arrays] COV partial_byte_write             hits=66           
+[cache_arrays] COV write_be_zero                  hits=5           
+[cache_arrays] COV invalidate_all                 hits=6           
+[cache_arrays] COV clear_one                      hits=27           
+[cache_arrays] COV set_tag                        hits=56           
+[cache_arrays] COV set_and_clear                  hits=10           
+RESULT module=cache_arrays seed=20260921 dir_pass=398 dir_fail=0 rnd_pass=286 rnd_fail=0 rnd_total=286 cov_bins=10 cov_hit=10 first_fail_cycle=0
+- /home/claude/work/tb/tb_cache_arrays.sv:154: Verilog $finish

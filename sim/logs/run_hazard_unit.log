@@ -1,0 +1,13 @@
+[hazard_unit] START seed=20260921
+[hazard_unit] COV load_use                       hits=37           
+[hazard_unit] COV mem_stall                      hits=49           
+[hazard_unit] COV ex_busy                        hits=48           
+[hazard_unit] COV ex_redirect                    hits=38           
+[hazard_unit] COV mem_redirect                   hits=36           
+[hazard_unit] COV stall_and_flush                hits=11           
+[hazard_unit] COV mispredict_while_muldiv        hits=15           
+[hazard_unit] COV loaduse_and_memstall           hits=17           
+[hazard_unit] COV trap_take                      hits=35           
+[hazard_unit] COV free_running                   hits=39           
+RESULT module=hazard_unit seed=20260921 dir_pass=721 dir_fail=0 rnd_pass=800 rnd_fail=0 rnd_total=800 cov_bins=10 cov_hit=10 first_fail_cycle=0
+- /home/claude/work/tb/tb_hazard_unit.sv:152: Verilog $finish

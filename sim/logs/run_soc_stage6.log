@@ -1,0 +1,8 @@
+[soc_stage6] START seed=20260921
+[soc_stage6] COV gpio_reg_test                  hits=1           
+[soc_stage6] COV timer_reg_test                 hits=1           
+[soc_stage6] COV intc_reg_test                  hits=1           
+[soc_stage6] COV uart_reg_test                  hits=1           
+[soc_stage6] COV masked_register                hits=286           
+RESULT module=soc_stage6 seed=20260921 dir_pass=0 dir_fail=0 rnd_pass=1200 rnd_fail=0 rnd_total=1200 cov_bins=5 cov_hit=5 first_fail_cycle=0
+- /home/claude/work/tb/soc/tb_soc_stage6.sv:101: Verilog $finish

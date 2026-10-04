@@ -1,0 +1,21 @@
+[csr_file] START seed=20260921
+[csr_file] COV legal_csr_access               hits=125           
+[csr_file] COV illegal_access                 hits=21           
+[csr_file] COV csr_write_committed            hits=62           
+[csr_file] COV trap_exception                 hits=5           
+[csr_file] COV trap_interrupt                 hits=4           
+[csr_file] COV mret                           hits=5           
+[csr_file] COV vectored_irq_target            hits=55           
+[csr_file] COV irq_pending                    hits=21           
+[csr_file] COV irq_MEI                        hits=13           
+[csr_file] COV irq_MSI                        hits=7           
+[csr_file] COV irq_MTI                        hits=1           
+[csr_file] COV retire                         hits=85           
+[csr_file] COV hpm_event                      hits=114           
+[csr_file] COV counter_sw_write               hits=11           
+[csr_file] COV op_RW                          hits=44           
+[csr_file] COV op_RS                          hits=75           
+[csr_file] COV op_RC                          hits=27           
+[csr_file] COV read_only_access               hits=57           
+RESULT module=csr_file seed=20260921 dir_pass=495 dir_fail=0 rnd_pass=521 rnd_fail=0 rnd_total=521 cov_bins=18 cov_hit=18 first_fail_cycle=0
+- /home/claude/work/tb/tb_csr_file.sv:386: Verilog $finish

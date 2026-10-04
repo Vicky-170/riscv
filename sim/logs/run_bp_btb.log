@@ -1,0 +1,18 @@
+[bp_11] START seed=20260921
+[bp_11] COV btb_hit                        hits=83           
+[bp_11] COV btb_miss                       hits=94           
+[bp_11] COV predict_taken                  hits=59           
+[bp_11] COV ctr_00                         hits=46           
+[bp_11] COV ctr_01                         hits=50           
+[bp_11] COV ctr_10                         hits=29           
+[bp_11] COV ctr_11                         hits=52           
+[bp_11] COV train_cond_taken               hits=48           
+[bp_11] COV train_cond_nottaken            hits=37           
+[bp_11] COV train_uncond                   hits=26           
+[bp_11] COV btb_conflict_evict             hits=29           
+[bp_11] COV target_mismatch_retrain        hits=34           
+[bp_11] COV ctr_saturate_high              hits=15           
+[bp_11] COV ctr_saturate_low               hits=6           
+[bp_11] COV bht_alias                      hits=28           
+RESULT module=bp_11 seed=20260921 dir_pass=114 dir_fail=0 rnd_pass=299 rnd_fail=0 rnd_total=299 cov_bins=15 cov_hit=15 first_fail_cycle=0
+- /home/claude/work/tb/tb_branch_predictor.sv:210: Verilog $finish

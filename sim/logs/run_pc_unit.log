@@ -1,0 +1,9 @@
+[pc_unit] START seed=20260921
+[pc_unit] COV redirect                       hits=34           
+[pc_unit] COV predicted_taken                hits=25           
+[pc_unit] COV sequential                     hits=59           
+[pc_unit] COV hold_on_stall                  hits=35           
+[pc_unit] COV redirect_over_stall            hits=13           
+[pc_unit] COV redirect_over_prediction       hits=11           
+RESULT module=pc_unit seed=20260921 dir_pass=138 dir_fail=0 rnd_pass=100 rnd_fail=0 rnd_total=100 cov_bins=6 cov_hit=6 first_fail_cycle=0
+- /home/claude/work/tb/tb_pc_unit.sv:93: Verilog $finish

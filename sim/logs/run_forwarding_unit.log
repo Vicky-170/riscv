@@ -1,0 +1,11 @@
+[forwarding_unit] START seed=20260921
+[forwarding_unit] COV no_forward                     hits=305           
+[forwarding_unit] COV fwdA_from_EXMEM                hits=36           
+[forwarding_unit] COV fwdA_from_MEMWB                hits=40           
+[forwarding_unit] COV fwdB_from_EXMEM                hits=36           
+[forwarding_unit] COV fwdB_from_MEMWB                hits=42           
+[forwarding_unit] COV priority_both_write_same_reg   hits=10           
+[forwarding_unit] COV x0_consumer                    hits=149           
+[forwarding_unit] COV x0_producer                    hits=42           
+RESULT module=forwarding_unit seed=20260921 dir_pass=542 dir_fail=0 rnd_pass=220 rnd_fail=0 rnd_total=220 cov_bins=8 cov_hit=8 first_fail_cycle=0
+- /home/claude/work/tb/tb_forwarding_unit.sv:98: Verilog $finish

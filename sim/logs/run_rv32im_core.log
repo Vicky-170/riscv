@@ -1,0 +1,19 @@
+[rv32im_core] START seed=20260921
+[rv32im_core] COV rv32i_alu                      hits=1           
+[rv32im_core] COV rv32i_load                     hits=1           
+[rv32im_core] COV rv32i_store                    hits=1           
+[rv32im_core] COV branch                         hits=1           
+[rv32im_core] COV jump                           hits=1           
+[rv32im_core] COV rv32m                          hits=2           
+[rv32im_core] COV csr_access                     hits=1           
+[rv32im_core] COV trap_ecall                     hits=1           
+[rv32im_core] COV mret                           hits=1           
+[rv32im_core] COV fencei                         hits=1           
+[rv32im_core] COV interrupt                      hits=1           
+[rv32im_core] COV scenario_fwd_across_dcache_stall hits=1           
+[rv32im_core] COV scenario_load_use              hits=1           
+[rv32im_core] COV scenario_mispredict_during_muldiv hits=1           
+[rv32im_core] COV scenario_irq_during_dcache_miss hits=1           
+[rv32im_core] COV scenario_fencei_after_selfmod  hits=1           
+RESULT module=rv32im_core seed=20260921 dir_pass=334 dir_fail=0 rnd_pass=1550 rnd_fail=0 rnd_total=1550 cov_bins=16 cov_hit=16 first_fail_cycle=0
+- /home/claude/work/tb/tb_rv32im_core.sv:639: Verilog $finish

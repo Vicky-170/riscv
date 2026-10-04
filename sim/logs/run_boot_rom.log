@@ -1,0 +1,14 @@
+[boot_rom] START seed=20260921
+[boot_rom] COV read_single                    hits=161           
+[boot_rom] COV read_burst                     hits=70           
+[boot_rom] COV rready_backpressure            hits=33           
+[boot_rom] COV read_out_of_range_beat         hits=66           
+[boot_rom] COV burst_crosses_end              hits=8           
+[boot_rom] COV write                          hits=82           
+[boot_rom] COV write_burst                    hits=55           
+[boot_rom] COV write_out_of_range             hits=12           
+[boot_rom] COV partial_strobe                 hits=107           
+[boot_rom] COV bready_backpressure            hits=32           
+[boot_rom] COV w_gaps                         hits=20           
+RESULT module=boot_rom seed=20260921 dir_pass=508 dir_fail=0 rnd_pass=383 rnd_fail=0 rnd_total=383 cov_bins=11 cov_hit=11 first_fail_cycle=0
+- /home/claude/work/tb/tb_axi_mem_slave.sv:246: Verilog $finish

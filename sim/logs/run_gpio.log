@@ -1,0 +1,13 @@
+[gpio] START seed=20260921
+[gpio] COV out_write                      hits=1           
+[gpio] COV dir_write                      hits=1           
+[gpio] COV irqen_write                    hits=1           
+[gpio] COV in_read_only_attempt           hits=1           
+[gpio] COV irq_asserted                   hits=1           
+[gpio] COV irq_deasserted                 hits=1           
+[gpio] COV partial_strobe                 hits=1           
+[gpio] COV all_pins_high                  hits=1           
+[gpio] COV all_pins_low                   hits=1           
+[gpio] COV sync_latency_observed          hits=1           
+RESULT module=gpio seed=20260921 dir_pass=76 dir_fail=0 rnd_pass=225 rnd_fail=0 rnd_total=225 cov_bins=10 cov_hit=10 first_fail_cycle=0
+- /home/claude/work/tb/tb_gpio.sv:125: Verilog $finish
