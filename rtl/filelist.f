@@ -1,0 +1,30 @@
+# Compile order (package first). Top module: rv32im_soc
+# Example lint:  verilator --lint-only -Wall -Wno-fatal --top-module rv32im_soc -f rtl/filelist.f
+rtl/rv32im_pkg.sv
+rtl/core/pipeline_regs.sv
+rtl/core/pc_unit.sv
+rtl/core/register_file.sv
+rtl/core/immediate_gen.sv
+rtl/core/decoder.sv
+rtl/core/alu.sv
+rtl/core/branch_unit.sv
+rtl/core/forwarding_unit.sv
+rtl/core/hazard_unit.sv
+rtl/core/muldiv_unit.sv
+rtl/core/csr_file.sv
+rtl/core/branch_predictor.sv
+rtl/core/rv32im_core.sv
+rtl/cache/cache_arrays.sv
+rtl/cache/icache.sv
+rtl/cache/dcache.sv
+rtl/bus/axi4_master.sv
+rtl/bus/axi4_interconnect.sv
+rtl/bus/axi_to_apb.sv
+rtl/memory/boot_rom.sv
+rtl/memory/sram_controller.sv
+rtl/memory/memory_subsystem.sv
+rtl/peripherals/timer.sv
+rtl/peripherals/uart.sv
+rtl/peripherals/gpio.sv
+rtl/peripherals/interrupt_controller.sv
+rtl/soc/rv32im_soc.sv
